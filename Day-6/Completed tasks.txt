@@ -1,0 +1,24 @@
+1. How to Open Files (open)
+learned that open() is the key to accessing files.
+
+"r" (Read): Open to read data (fails if file is missing).
+"w" (Write): Open to write data (deletes old data first).
+"a" (Append): Open to add new data at the end (keeps old data).
+2. The "Safe Way" (with)
+learned the with open(...) pattern.
+
+It automatically closes the file for you when you're done.
+Benefit: we never have to worry about forgetting file.close() or losing data because the file stayed open.
+3. How to Write Data
+i learned file.write("text") to save strings.
+i learned that you must add "\n" (new line) manually if you want each item on a new line.
+4. How to Read Data
+file.read(): Reads the whole file into one big string.
+for line in file: Reads the file line by line (best for large files).
+line.strip(): Removes the hidden "Enter" key (\n) from the end of lines so your data looks clean.
+5. Data Storage Format
+learned how to save complex data (like Name + Phone) by using a separator (like |).
+Example: Saving "Alice|12345" and splitting it back into ["Alice", "12345"].
+6. Safety Net (try-except)
+learned that files might not exist or might be locked.
+we used try and except FileNotFoundError to make your program not crash if the file is missing (it just creates a new one).
