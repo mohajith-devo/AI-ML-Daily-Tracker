@@ -1,0 +1,18 @@
+# --- MATPLOTLIB  ---
+1. plt.plot(x, y)          -> Draw a line chart for trends.
+2. plt.scatter(x, y)       -> Draw dots to see relationships.
+3. plt.bar(x, y)           -> Draw bars to compare categories.
+4. plt.hist(data)          -> Draw a histogram to see data distribution.
+5. plt.show()              -> CRITICAL: The graph won't appear without this!
+
+# --- SEABORN ---
+6. sns.set_theme()         -> Make charts look beautiful automatically.
+7. sns.barplot(x, y, data) -> Draw bars directly from a Pandas DataFrame.
+8. sns.boxplot(x, y)       -> Show data spread and find outliers easily.
+9. sns.heatmap(df)         -> Draw a color grid for correlations (AI favorite).
+10. sns.pairplot(df)       -> Draw a grid of all chart types at once.
+(these are just basics that i have understood and been practicing)
+here at the last matplot lib is good for customization and 3d animation and where data inputs are lists and arrays (numpy)
+code length is more verbose.
+ and at the last seaborn is good for statistics distributions and trends and where data inputs are pandas like data frames.
+Code length is short and concise.

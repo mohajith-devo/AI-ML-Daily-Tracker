@@ -1,0 +1,14 @@
+Intro To AIML :
+>>Artificial intelligence, machine learning and deep learning are the concentric circles where each is a subset of larger one.
+Artificial Intelligence -> Machine Learning -> Deep Learning.
+Where A Real Life examples of ai,ml and deep learning are:-
+>>The chatbots that we using everyday ;ike chatgpt, deepseek, claude and more
+>>Netflix recommendations or credit card fraud alerts.
+>>Self-driving cars or facial recognition systems.
+
+>>where machine learning and deep learning are the foundation for the chatbot entire foundation.
+>>Natural Language Processing (NLP): Deep learning models (specifically transformers) allow chatbots to understand context, sarcasm, grammar, and intent behind human text.
+Contextual Memory: ML algorithms help chatbot to track the flow of conversation. 
+This ensures chatbot remember what you said three sentences ago.
+Personalization: ML filters and ranks information. This allows me to tailor the tone, length, and complexity of chatbot asnwers to match your specific style.Continuous Improvement: Feedback loops help developers train future iterations of models.
+ This ensures responses become safer, more accurate, and more helpful over time.
